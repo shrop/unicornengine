@@ -11,5 +11,5 @@ projects[drupal][version] = 7.23
 ; ----------------
 projects[unicornengine][type] = profile
 projects[unicornengine][download][type] = git
-projects[unicornengine][download][url] = git@github.com:shrop/unicornengine.git
+projects[unicornengine][download][url] = https://github.com/shrop/unicornengine.git
 projects[unicornengine][download][branch] = 7.x-1.x

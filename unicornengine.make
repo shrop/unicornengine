@@ -45,7 +45,7 @@ projects[webform][version] = 3.19
 ; Features
 ; ------
 projects[unicornengine_blog][type] = git
-projects[unicornengine_blog][url] = git@github.com:shrop/unicornengine.git
+projects[unicornengine_blog][url] = https://github.com/tlattimore/unicornengine-blog.git
 projects[unicornengine_blog][branch] = 7.x-1.x
 
 ; Themes
