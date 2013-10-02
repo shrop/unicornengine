@@ -13,19 +13,6 @@ projects[ctools][version] = 1.3
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.x-dev
 
-projects[entity][subdir] = contrib
-projects[entity][version] = 1.2
-
-projects[entitycache][subdir] = contrib
-projects[entitycache][version] = 1.1
-
-projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.0
-projects[entityreference][patch][url] = https://drupal.org/files/entityreference_migrate-1845986-2.patch
-
-projects[environment_indicator][subdir] = contrib
-projects[environment_indicator][version] = 1.1
-
 projects[features][subdir] = contrib
 projects[features][version] = 1.0
 
@@ -42,7 +29,7 @@ projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
 
 projects[token][subdir] = contrib
-projects[token][version] = 2.0
+projects[token][version] = 1.5
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.7
@@ -54,6 +41,12 @@ projects[webform][version] = 3.19
 ; Custom
 ; ------
 
+
+; Features
+; ------
+projects[unicornengine_blog][type] = git
+projects[unicornengine_blog][url] = git://git@github.com:shrop/unicornengine.git
+projects[unicornengine_blog][branch] = 7.x-1.x
 
 ; Themes
 ; ------
