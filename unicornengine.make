@@ -44,9 +44,11 @@ projects[webform][version] = 3.19
 
 ; Features
 ; ------
-projects[unicornengine_blog][type] = git
-projects[unicornengine_blog][url] = https://github.com/tlattimore/unicornengine-blog.git
-projects[unicornengine_blog][branch] = 7.x-1.x
+projects[unicornengine_blog][type] = module
+projects[unicornengine_blog][download][type] = git
+projects[unicornengine_blog][download][url] = https://github.com/tlattimore/unicornengine-blog.git
+projects[unicornengine_blog][download][branch] = 7.x-1.x
+
 
 ; Themes
 ; ------
