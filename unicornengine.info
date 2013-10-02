@@ -1,0 +1,75 @@
+name = UnicornEngine
+distribution_name = UnicornEngine
+description = Drupal distribution to demo configuration managment at a [CharDUG meetup](http://www.meetup.com/charDUG/events/138153952/).
+
+core = 7.x
+
+; Core
+; ----
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = toolbar
+dependencies[] = update
+dependencies[] = user
+
+
+; Contrib
+; -------
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = pathauto
+dependencies[] = token
+dependencies[] = views
+dependencies[] = views_ui
+
+
+; Custom
+; ------
+
+
+; Themes
+; ------
+theme = bartik
+
+
+; Settings
+; --------
+variables[site_name] = UnicornEngine distribution
+variables[site_mail] = admin@example.com
+variables[admin_theme] = seven
+variables[site_frontpage] = node/1
+
+
+; Content
+; -------
+nodes[front][type] = page
+nodes[front][title] = Welcome to your new UnicornEngine distribution site!
+nodes[front][uid] = 1
+nodes[front][language] = und
+nodes[front][body][und][0][value] = <p>Welcome CharDuggers!</p>
+nodes[front][body][und][0][format] = full_html
+
+
+files[] = unicornengine.profile
